@@ -1,0 +1,11 @@
+>>> pipenv install django
+>>> pipenv shell
+>>> django-admin startproject config .
+>>> py manage.py migrate
+>>> py manage.py runserver
+>>> py manage.py startapp books
+>>> py manage.py makemigrations books
+>>> py manage.py migrate
+>>> py manage.py createsuperuser
+>>> pipenv install djangorestframework
+>>> py manage.py startapp api
